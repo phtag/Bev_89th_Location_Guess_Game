@@ -119,10 +119,11 @@ body {
     margin-right: 5px;
     margin-left: 5px;
 }
-
-#my-user-alert-button {
-    /* align-self: right; */
-    margin-left: 60px;
+#alert-button {
+    position: relative;
+    display: block;
+    /* width: 80%; */
+    margin-left: 10%;
     margin-top: 10px;
 }
 #city-picture-hint {

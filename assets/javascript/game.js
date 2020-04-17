@@ -1,147 +1,194 @@
-// My word-guess game
-    var UScityNames = ["Kona",
-                        "Santa Fe",
-                        "Los Lunas",
-                        "Flagstaff",
-                        "Cambria",
-                        "Boonton Twp",
-                        "Paso Robles",
-                        "Ocean View",
-                        "Rockaway River",
-                        "Yellowstone",
-                        "Lower Falls",
-                        "Silver Sands",
-                        "Albuquerque",
-                        "Rockaway Drive",
-                        "Montoya Street",
-                        "Portland Rose Garden",
-                        "Jamaica",
-                        "Montoya Street"];
-    var UScityImages = ["Bev_Dylan_Zayden_Hawaii.JPG",
-                        "Bev_Family_Christmas_SantaFe.jpg",
-                        "Bev_All_Family_LosLunas.jpg",
-                        "Bev_Flagstaff.jpeg",
-                        "Bev_on_horse_BoontonTwp.jpg",
-                        "Bev_all_children_Kyles_wedding_Cambria.jpg",
-                        "Bev_PasoRobles.jpg",
-                        "Bev_Hawaii_cliffs_2013.JPG",
-                        "Bev_Peter_Nancy_swimming_RockawayRiver.jpg",
-                        "Bev_Kyle_Yellowstone.jpeg",
-                        "Bev_Yellowstone_LowerFalls.JPG",
-                        "Bev_Kyle_Nancy_Kim_Brittany_Jamaica_2011.jpg",
-                        "Bev_Zayden_Albuqeurque.JPG",
-                        "Bev_Beach_Jamaica.jpeg",
-                        "LoisBevJeanShep_RockawayDrive.jpeg",
-                        "Bev_RoseGarden_Portland.JPG",
-                        "Bev_Kyle_MontayaSt.JPG"];
-    var UScityNameHints = ["Think Big",
-                        "It's so enchanting",
-                        "Don't moon anybody!",
-                        "Launching point to the grand one",
-                        "Home, sweet home",
-                        "Highway 1 beauty",
-                        "Under-the-radar landing spot for wine lovers",
-                        "Big Island lookout point",
-                        "Rock-a-bye baby",
-                        "It doesn't get any more faithful",
-                        "Not the upper",
-                        "Think metal the Dutch hate",
-                        "Up, up and away in my beautiful baloon...",
-                        "Ya mon!",
-                        "And across this street was a fable or two or more...",
-                        "Overlooks a dangerous place for Trump to visit"];
     var imageData = [
         {
             location: "Kona",
             image: "Bev_Dylan_Zayden_Hawaii.JPG",
-            hint: "Think Big"
+            hint: "Think Big",
+            GIFys: 
+                {
+                    win: 'https://media.giphy.com/media/3oEjI7MEKQwtRmUodW/giphy.gif',
+                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Santa Fe",
             image: "Bev_Family_Christmas_SantaFe.jpg",
-            hint: "It's so enchanting"    
+            hint: "It's so enchanting",  
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/wRGJgKQdpagFO/giphy.gif',
+                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Los Lunas",
             image: "Bev_All_Family_LosLunas.jpg",
-            hint: "Don't moon anybody!"
+            hint: "Don't moon anybody!",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/Lypp0uiCt99U4/giphy.gif',
+                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Flagstaff",
             image: "Bev_Flagstaff.jpeg",
-            hint: "Grand Canyon launching point"
+            hint: "Grand Canyon launching point",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/l41Ydaf09SoHWScSI/giphy.gif',
+                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Cambria",
             image: "Bev_all_children_Kyles_wedding_Cambria.jpg",    
-            hint: "Highway 1 gem"
+            hint: "Highway 1 gem",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/3o7abJvzjYfWCG3DHO/giphy.gif',
+                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Boonton Township",
             image: "Bev_on_horse_BoontonTwp.jpg",
-            hint: "Home, sweet home"
+            hint: "Home, sweet home",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/3ornjLQ0Shin50OzAI/giphy.gif',
+                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Paso Robles",
             image: "Bev_PasoRobles.jpg",
-            hint: "Under-the-radar landing spot for wine lovers"
+            hint: "Under-the-radar landing spot for wine lovers",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/xT9DPDp0PNRFbuqqli/giphy.gif',
+                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "South Point",
             image: "Bev_Hawaii_cliffs_2013.JPG",
-            hint: "Big Island vista point"
+            hint: "Big Island vista point",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/l46CtbARpG9AbP808/giphy.gif',
+                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Rockaway River",
             image: "Bev_Peter_Nancy_swimming_RockawayRiver.jpg",
-            hint: "Rock-a-bye baby"
+            hint: "Rock-a-bye baby",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/WUq1cg9K7uzHa/giphy.gif',
+                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Yellowstone",
             image: "Bev_Kyle_Yellowstone.jpeg",
-            hint: "It doesn't get any more faithful"
-
+            hint: "It doesn't get any more faithful",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/hZj44bR9FVI3K/giphy.gif',
+                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Yellowstone Lower Falls",
             image: "Bev_Yellowstone_LowerFalls.JPG",
-            hint: "Not the upper"
-
+            hint: "Not the upper",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/I24hjk3H0R8Oc/giphy.gif',
+                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Silver Sands",
             image: "Bev_Kyle_Nancy_Kim_Brittany_Jamaica_2011.jpg",
-            hint: "Think of the metal the Dutch hate"
+            hint: "Think of the metal the Dutch hate",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/xTiN0CNHgoRf1Ha7CM/giphy.gif',
+                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Albuquerque",
             image: "Bev_Zayden_Albuqeurque.JPG",
-            hint: "Up, up and away in my beautiful baloon..."
-
+            hint: "Up, up and away in my beautiful baloon...",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/rmi45iyhIPuRG/giphy.gif',
+                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Rockaway Drive",
             image: "LoisBevJeanShep_RockawayDrive.jpeg",
-            hint: "And across this street was a fable or two or more..."
-
+            hint: "And across this street was a fable or two or more...",
+            GIFys:
+            {
+                win: 'https://media.giphy.com/media/tyxovVLbfZdok/giphy.gif',
+                lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+            },        
         },
         {
             location: "Montoya Street",
             image: "Bev_Kyle_MontayaSt.JPG",
-            hint: "Amont minus A plus toy plus A street"
-
+            hint: "Amont minus A plus toy plus A street",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif',
+                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                },        
         },
         {
             location: "Portland Rose Garden",
             image: "Bev_RoseGarden_Portland.JPG",
-            hint: "Trump is not welcome in this northwest garden"
+            hint: "Trump is not welcome in this northwest garden",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/3oEdv03JAv74J6KGTS/giphy.gif',
+                    lose: '',
+                },        
         },
         {
             location: "Jamaica",
             image: "Bev_Beach_Jamaica.jpeg",
-            hint: "Ya, mon"
+            hint: "Ya, mon",
+            GIFys:
+                {
+                    win: 'https://media.giphy.com/media/uJw7UcWYutgQM/giphy.gif',
+                    lose: ''
+                },        
         }];
 
+    var GIFys = [
+        {
+            win: 'https://media.giphy.com/media/f2fX7GtXh1nbi/giphy.gif',
+            lose: ''
+        },
+        {
+            win: 'https://media.giphy.com/media/DffShiJ47fPqM/giphy.gif',
+            lose: ''
+        },
+        {
+            win: 'https://media.giphy.com/media/J336VCs1JC42zGRhjH/giphy.gif',
+            lose: ''
+        },
+        {
+            win: 'https://media.giphy.com/media/S3Ot3hZ5bcy8o/giphy.gif',
+           lose: ''
+        }
+    ];
+    var currentImageIndex;
     var gameChoices = ["r", "p", "s"];
     var currentCity_array = [];
     var currentCity_visibleLetters = [];
@@ -154,13 +201,14 @@
     var currentCity = document.getElementById("current-city");
     var currentCity2 = document.getElementById("current-city2");
     var currentCity3 = document.getElementById("current-city3");
+    var picturedViewedText = document.getElementById("pictures-viewed-text");
     var winsText = document.getElementById("wins-text");
     var lossesText = document.getElementById("losses-text");
     var guessesRemaining = document.getElementById("guesses-remaining");
     var lettersGuessed = document.getElementById("letters-guessed");
     var varImage = document.getElementById("left-column-image");
-    // var celebrationImage = document.getElementById("left-column-celebration-image");
-    var celebrationImage = document.getElementById("celebration");
+    var celebrationImage = document.getElementById("left-column-celebration-image");
+    var celebrationSection = document.getElementById("celebration");
     var myUserAlertButton = document.getElementById("my-user-alert-button");
     var cityPictureHintText = document.getElementById("city-picture-hint-text");
 
@@ -190,10 +238,10 @@
     initializeSessionVariables();
     //  Start the game
     resetGame();
-    celebrationImage.style.visibility = "hidden";
-    celebrationImage.style.display = "none";
+    celebrationSection.style.visibility = "hidden";
+    celebrationSection.style.display = "none";
 
-    celebrationImage.addEventListener("mouseenter", function( event ) {
+    celebrationSection.addEventListener("mouseenter", function( event ) {
     });  
     document.onkeyup = function(event) {
         var userChoice, computerChoice;
@@ -227,6 +275,7 @@
             //  Start the game from scratch
             enableButton(wonGameMessage);
         }
+        picturedViewedText.textContent = winsCount + lossesCount + " of " + imageData.length;
         winsText.textContent = winsCount;
         lossesText.textContent = lossesCount;
         console.log("user's choice=" + userChoice, "computer's choice=" + computerChoice, "user wins=" + winsCount, "user losses=" + lossesCount);
@@ -237,6 +286,7 @@
         //var newSource = "assets/images/" + UScityImages[imageIndex];
         // var newSource = "assets/images/Bev/" + UScityImages[imageIndex];
         var newSource = "assets/images/Bev/" + imageData[imageIndex].image;
+        currentImageIndex = imageIndex;
         
         varImage.setAttribute("src", newSource);
         varImage.setAttribute("max-height", '80%');
@@ -334,6 +384,7 @@
         }         
         selectedCities[cityIndex]=true; // mark that this city has already been selected
         guessesRemainingCount = 5; 
+        picturedViewedText.textContent = winsCount + lossesCount + " of " + imageData.length;
         winsText.textContent = winsCount;
         lossesText.textContent = lossesCount;
         guessesRemaining.textContent = guessesRemainingCount;
@@ -342,8 +393,8 @@
     //__________________________________________________________
     function resetGame() {
         myUserAlertButton.style.visibility = "hidden";
-        celebrationImage.style.visibility = "hidden";
-        celebrationImage.style.display = "none";
+        celebrationSection.style.visibility = "hidden";
+        celebrationSection.style.display = "none";
         initializeVariableValues();
         changeImage(cityIndex);
         initializeCurrentCityDisplay();
@@ -364,11 +415,16 @@
         waitingForReset = true;
         if (buttonLabel == wonGameMessage) {
             audioElement = audioElement_wonGame;
-            celebrationImage.style.visibility = "visible";
-            celebrationImage.style.display = "block";
-        
+            celebrationSection.style.visibility = "visible";
+            celebrationSection.style.display = "block";
+            var newSource = imageData[currentImageIndex].GIFys.win;
+            celebrationImage.setAttribute("src", newSource);
         } else {
             audioElement = audioElement_lostGame;
+            celebrationSection.style.visibility = "visible";
+            celebrationSection.style.display = "block";
+            var newSource = imageData[currentImageIndex].GIFys.lose;
+            celebrationImage.setAttribute("src", newSource);
         }
         audioElement.currentTime=0;
         audioElement.play();
