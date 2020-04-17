@@ -111,7 +111,7 @@
         },
         {
             location: "Silver Sands",
-            image: "Bev_Kyle_Nancy_Kim_Brittany_Jamaica_2011.jpg",
+            image: "Bev_Family_Jamaica.jpg",
             hint: "Think of the metal the Dutch hate",
             GIFys:
                 {
