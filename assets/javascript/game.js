@@ -142,7 +142,7 @@
         {
             location: "Montoya Street",
             image: "Bev_Kyle_MontayaSt.JPG",
-            hint: "Amont minus A plus toy plus A street",
+            hint: "Amont minus A plus toy plus a street",
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif',
