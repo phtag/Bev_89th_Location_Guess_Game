@@ -16,7 +16,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/wRGJgKQdpagFO/giphy.gif',
-                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                   lose: 'https://media.giphy.com/media/ZdBt0qtDUPkKa3OJu5/giphy.gif'
                 },        
         },
         {
@@ -26,7 +26,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/Lypp0uiCt99U4/giphy.gif',
-                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/3og0IGC80a39wOQ2UE/giphy.gif',
                 },        
         },
         {
@@ -36,7 +36,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/l41Ydaf09SoHWScSI/giphy.gif',
-                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/3osxYvDINT4czKJtqE/giphy.gif',
                 },        
         },
         {
@@ -46,7 +46,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/3o7abJvzjYfWCG3DHO/giphy.gif',
-                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/lkJsPfqFYAYAI85GIi/giphy.gif',
                 },        
         },
         {
@@ -56,7 +56,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/3ornjLQ0Shin50OzAI/giphy.gif',
-                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/S5oYPcahNt8GbPzknM/giphy.gif'
                 },        
         },
         {
@@ -66,7 +66,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/xT9DPDp0PNRFbuqqli/giphy.gif',
-                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/l3V0b3rzgl7Zu6HBe/giphy.gif'
                 },        
         },
         {
@@ -76,7 +76,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/l46CtbARpG9AbP808/giphy.gif',
-                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/26gsp6gK1jVopN34Q/giphy.gif'
                 },        
         },
         {
@@ -86,7 +86,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/WUq1cg9K7uzHa/giphy.gif',
-                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/26uf7AdRCyeFnMQVi/giphy.gif'
                 },        
         },
         {
@@ -96,7 +96,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/hZj44bR9FVI3K/giphy.gif',
-                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/TJU5M2vokAMcRQY5gZ/giphy.gif'
                 },        
         },
         {
@@ -106,7 +106,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/I24hjk3H0R8Oc/giphy.gif',
-                   lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                   lose: 'https://media.giphy.com/media/YrNSnsXGZHXO/giphy.gif'
                 },        
         },
         {
@@ -116,7 +116,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/xTiN0CNHgoRf1Ha7CM/giphy.gif',
-                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/3o84U3nLPzfzvtNYCQ/giphy.gif'
                 },        
         },
         {
@@ -126,7 +126,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/rmi45iyhIPuRG/giphy.gif',
-                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/3o7TKB3oifq46DDhOE/giphy.gif'
                 },        
         },
         {
@@ -136,7 +136,7 @@
             GIFys:
             {
                 win: 'https://media.giphy.com/media/tyxovVLbfZdok/giphy.gif',
-                lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                lose: 'https://media.giphy.com/media/fYK7f8RPiQVQA/giphy.gif'
             },        
         },
         {
@@ -146,7 +146,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/RrVzUOXldFe8M/giphy.gif',
-                    lose: 'https://media.giphy.com/media/3o7aDc3HvnpkfcAMx2/giphy.gif'
+                    lose: 'https://media.giphy.com/media/ADr35Z4TvATIc/giphy.gif'
                 },        
         },
         {
@@ -156,7 +156,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/3oEdv03JAv74J6KGTS/giphy.gif',
-                    lose: '',
+                    lose: 'https://media.giphy.com/media/27EhcDHnlkw1O/giphy.gif',
                 },        
         },
         {
@@ -166,7 +166,7 @@
             GIFys:
                 {
                     win: 'https://media.giphy.com/media/uJw7UcWYutgQM/giphy.gif',
-                    lose: ''
+                    lose: 'https://media.giphy.com/media/GfAD7Bl016Gfm/giphy.gif'
                 },        
         }];
 
