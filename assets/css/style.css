@@ -1,0 +1,138 @@
+.my-header {
+        font-family: 'Archivo', sans-serif;
+        font-size: 32pt;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        padding-top: 20px;
+        /* width: 59%;  */
+        width: 80%; 
+        height: auto; 
+        color: rgb(255, 239, 96);
+        background-image: url('https://media.giphy.com/media/peAFQfg7Ol6IE/giphy.gif');
+        /* background-image: url('../images/Bev_and_Kyle_Famr2Table_ABQ.JPG'); */
+        
+        background-repeat: repeat;
+        background-color: rgb(80, 253, 253); 
+        border: 5px solid rgb(255, 130, 81);
+}
+.my-scoreboard-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: red;
+}
+.my-header-image {
+    /* object-fit: cover;
+    object-position: 20% 10px; 
+    max-width: 100%;
+    max-height: 100%; */
+    margin-top: -5%;
+    object-fit: cover;
+    /* object-position: 100% 60; */
+    object-position: 100% 20;
+    width: 500px;
+    height: 750px;
+    transform: rotate(90deg);
+}
+body {
+    margin-bottom: 20px;
+}
+.container-fluid {
+    margin: auto;
+    width: 75%;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  /* .container-fluid:hover .overlay { */
+/* .my-border-column-left:hover .overlay { */
+#celebration {
+    margin: auto;
+    width: 100%;
+}
+
+#celebration:hover .overlay {
+    opacity: 1;
+  }
+.my-row {
+    margin-top: 30px;
+}
+.my-scoreboard-section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: darkblue;
+    margin: -10px 20px 0px 20px;
+}
+.my-scoreboard-border-row {
+    border: 5px solid blue;
+    background-color: white;
+    padding: 20px; 
+    margin-top: 0px;
+}
+.my-border-column-left {
+    border-left: 5px solid red;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    padding: 20px;
+    /* background-image: url('../images/nature-q-c-627-480-2.jpg'); */
+    background-repeat: no-repeat;
+    background-color: rgb(82, 205, 236); 
+}
+.my-border-column-right {
+    border-right: 5px solid red;
+    border-left: 5px solid red;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    padding: 20px;
+}
+.my-scoreboard-column {
+    background-color: rgb(220, 221, 178); 
+}
+#guessing-area {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#current-word {
+    background-color: lightyellow;
+}
+
+#letters-guessed {
+    background-color:lightgreen;
+   
+}
+#current-city, #current-city2, #current-city3 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#my-user-alert-button {
+    /* align-self: right; */
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#city-picture-hint {
+    margin: 20px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+#city-picture-hint-text {
+    font-weight: normal;
+    color: black;
+}
